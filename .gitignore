@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# cred
+.env
+
+# Vector database (rebuilt by running src/ingest.py)
+abc_vector_db_chroma/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
