@@ -13,9 +13,9 @@ VECTOR_DB_DIR = PROJECT_ROOT / "abc_vector_db_chroma"
 
 # model
 LLM_MODEL = "gpt-5"
-EMEDDING_MODEL = "text-embedding-3-small"
+EMBEDDING_MODEL = "text-embedding-3-small"
 
 # vector db and retrieval
 COLLECTION_NAME = "abc_help_qa"
 K = 4
-SCORE_THRESHOLD = 0.25
+SCORE_THRESHOLD = 0.33
